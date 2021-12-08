@@ -14,7 +14,7 @@ fn lines_from_file(filename: impl AsRef<Path>) -> Vec<i32> {
 fn part1() {
     println!("Hello, this is part 1 of day 1!");
 
-    let lines: Vec<i32> = lines_from_file("src/1/hello.txt");
+    let lines: Vec<i32> = lines_from_file("src/1/input.txt");
 
     let mut count: i32 = 0;
     let mut prev: i32 = -1;
@@ -33,7 +33,7 @@ fn part1() {
 fn part2() {
     println!("Hello, this is part 2 of day 1!");
 
-    let lines: Vec<i32> = lines_from_file("src/1/hello.txt");
+    let lines: Vec<i32> = lines_from_file("src/1/input.txt");
 
     let mut count: i32 = 0;
     let mut prev_a: i32 = -1;
